@@ -11,16 +11,16 @@ class C{
             C1 = "";
             C2 = 0;
         }
-        void setA1(int entry){
+        void setC1(int entry){
             C1 = entry;
         }
-        void setA2(float entry){
+        void setC2(float entry){
             C2 = entry;
         }
-        int getA1(){
+        string getC1(){
             return C1;
         }
-        float getA2(){
+        float getC2(){
             return C2;
         }
         void MC1(){
@@ -28,5 +28,8 @@ class C{
         }
         void MC2(){
             cout << "MC2" << endl;
+        }
+        void MC3(){
+            cout << "MC3" << endl;
         }
 };
